@@ -5,8 +5,6 @@ import {
   MessageSquare, 
   FileText, 
   Clock, 
-  CheckCircle, 
-  AlertCircle,
   Send,
   User,
   Calendar,
@@ -19,7 +17,6 @@ import {
   addDoc, 
   query, 
   where, 
-  getDocs, 
   orderBy, 
   serverTimestamp,
   onSnapshot

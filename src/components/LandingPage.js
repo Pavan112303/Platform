@@ -15,11 +15,6 @@ import { collection, query, where, getDocs } from 'firebase/firestore';
 
 const LandingPage = () => {
   const [featuredProjects, setFeaturedProjects] = useState([]);
-  const [stats, setStats] = useState({
-    totalProjects: 0,
-    completedProjects: 0,
-    activeUsers: 0
-  });
 
   useEffect(() => {
     const fetchFeaturedProjects = async () => {
